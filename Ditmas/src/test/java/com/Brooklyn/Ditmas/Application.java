@@ -23,4 +23,13 @@ public class Application {
 		driver.get("https://www.yahoo.com/");
 	
 	}
+	
+	@Test
+	public void mytest1000()
+	{
+		System.setProperty("webdriver.chrome.driver","C:/Users/Ekramul/Documents/Selenium file folder/SeleniumWebdriver/chromedriver_win32/chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.get("https://www.gmail.com/");
+	
+	}
 }
